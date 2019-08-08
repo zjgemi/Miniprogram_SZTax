@@ -4,4 +4,4 @@ A miniprogram project named "SZTax moments of PKUers" (PKUer的深税时光) dev
 
 Scan the following code using WeChat to visit the miniprogram.
 
-![image](https://github.com/zjgemi/Miniprogram_SZTax/images/mpcode.png)
+![image](https://github.com/zjgemi/Miniprogram_SZTax/blob/master/images/mpcode.png)
