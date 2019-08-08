@@ -1,0 +1,3 @@
+/* pages/dates/7.15/7.15.wxss */
+
+@import "/common/date.wxss";

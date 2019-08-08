@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view class="container">
+
+  <image animation="{{animation0}}" animation="{{animation1}}" class="words" src="/images/Words.png" hidden="{{hidden}}"></image>
+
+  <image animation="{{animation3}}" class="week1" src="{{Timeline1.name}}"></image>
+  <block wx:if="{{Timeline1.src==''}}">
+    <image animation="{{animation3}}" class="photo1" src="/images/Tobecontinued.jpg" mode="aspectFill"></image>
+  </block>
+  <block wx:else>
+    <image animation="{{animation3}}" src="{{Timeline1.src}}" bindtap="navigateTo" data-url="{{Timeline1.path}}" class="photo1" mode="aspectFill"></image>
+  </block>
+
+  <image animation="{{animation4}}" class="week2" src="{{Timeline2.name}}"></image>
+  <block wx:if="{{Timeline2.src==''}}">
+    <image animation="{{animation4}}" class="photo2" src="/images/Tobecontinued.jpg" mode="aspectFill"></image>
+  </block>
+  <block wx:else>
+    <image animation="{{animation4}}" src="{{Timeline2.src}}" bindtap="navigateTo" data-url="{{Timeline2.path}}" class="photo2" mode="aspectFill"></image>
+  </block>
+
+  <view bindtap="navigateTo" data-url="{{Timelineall.path}}" class="logo-nav">  
+    <image animation="{{animation2}}" class="logo" src="{{Logo.src}}"></image>
+  </view>
+
+  <image animation="{{animation5}}" class="week3" src="{{Timeline3.name}}"></image>
+  <block wx:if="{{Timeline3.src==''}}">
+    <image animation="{{animation5}}" class="photo3" src="/images/Tobecontinued.jpg" mode="aspectFill"></image>
+  </block>
+  <block wx:else>
+    <image animation="{{animation5}}" src="{{Timeline3.src}}" bindtap="navigateTo" data-url="{{Timeline3.path}}" class="photo3" mode="aspectFill"></image>
+  </block>
+
+  <image animation="{{animation6}}" class="week4" src="{{Timeline4.name}}"></image>
+  <block wx:if="{{Timeline4.src==''}}">
+    <image animation="{{animation6}}" class="photo4" src="/images/Tobecontinued.jpg" mode="aspectFill"></image>
+  </block>
+  <block wx:else>
+    <image animation="{{animation6}}" src="{{Timeline4.src}}" bindtap="navigateTo" data-url="{{Timeline4.path}}" class="photo4" mode="aspectFill"></image>
+  </block>
+
+  <!-- <import src="/common/QRcode.wxml"/>
+  <template is="QRcode"/> -->
+
+</view>

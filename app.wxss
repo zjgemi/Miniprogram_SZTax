@@ -1,0 +1,22 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.QRcode{
+  width: 128rpx;
+  height: 128rpx;
+  position: relative;
+  top: 64rpx
+}
+
+.space{
+  height: 80rpx;
+  width: 100%
+}
+

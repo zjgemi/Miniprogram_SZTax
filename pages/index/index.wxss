@@ -1,0 +1,119 @@
+/**index.wxss**/
+
+page {
+  background: url("https://wx1.sinaimg.cn/mw690/005XJYWoly1ftkdmtopq4j30ok0snqob.jpg");
+  background-size: 100% 100%
+}
+
+.photo1 {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: 400rpx;
+  top: 150rpx;
+  opacity: 0
+}
+
+.photo2 {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: 570rpx;
+  top: 220rpx;
+  opacity: 0
+}
+
+.photo3 {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: 600rpx;
+  top: 390rpx;
+  opacity: 0
+}
+
+.photo4 {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: 460rpx;
+  top: 500rpx;
+  opacity: 0
+}
+
+.logo {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: 400rpx;
+  top: 300rpx;
+  opacity: 0
+}
+
+.week1 {
+  width: 128rpx;
+  height: 42rpx;
+  position: absolute;
+  left: 400rpx;
+  top: 100rpx;
+  opacity: 0
+}
+
+.week2 {
+  width: 128rpx;
+  height: 42rpx;
+  position: absolute;
+  left: 570rpx;
+  top: 170rpx;
+  opacity: 0
+}
+
+.week3 {
+  width: 128rpx;
+  height: 42rpx;
+  position: absolute;
+  left: 600rpx;
+  top: 528rpx;
+  opacity: 0
+}
+
+.week4 {
+  width: 128rpx;
+  height: 42rpx;
+  position: absolute;
+  left: 450rpx;
+  top: 655rpx;
+  opacity: 0
+}
+
+.abstract {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%
+}
+
+.abstract-name {
+  font-family: 'Times New Roman'
+}
+
+.logo-nav {
+  height: 256rpx;
+  width: 750rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.words {
+  height: 294rpx;
+  width: 330rpx;
+  position: absolute;
+  left: 400rpx;
+  top: 250rpx;
+  opacity: 0
+}

@@ -1,0 +1,29 @@
+<!--common/date.wxml-->
+<template name="date">
+
+  <view class="container">
+
+  <image class="box" src="/images/box.png"></image>
+
+  <swiper class="imageList" vertical="true" current="{{Images.length-1}}" indicator-dots="true" 
+    indicator-color="rgba(228,228,228,1)" 
+    indicator-active-color="#00B7EE">
+    <block wx:for="{{Images}}" wx:key="" wx:for-index="index">
+    <swiper-item>
+      <view class="image-div">
+        <image class="image" mode="aspectFit" src="{{Images[Images.length-1-index].src}}" bindlongpress="saveImg" data-url="{{Images[Images.length-1-index].src}}"></image>
+      </view>
+      <!-- <view class="image-text-div">
+        <view class="image-text">{{item.name}}</view>
+      </view> -->
+    </swiper-item>
+    </block>
+  </swiper>
+
+  <!-- <text class="hint">长按图片以保存至相册</text> -->
+  <!-- <import src="/common/QRcode.wxml"/>
+  <template is="QRcode"/> -->
+
+  </view>
+  
+</template>

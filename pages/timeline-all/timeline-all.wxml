@@ -1,0 +1,3 @@
+<!--pages/timeline-all/timeline-all.wxml-->
+<import src="/common/timeline.wxml"/>
+<template is="timeline" data="{{Timepoint,Dates,Nextweek}}"/>

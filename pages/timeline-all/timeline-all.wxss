@@ -1,0 +1,3 @@
+/* pages/timeline-all/timeline-all.wxss */
+
+@import "/common/timeline.wxss";

@@ -1,0 +1,3 @@
+<!--pages/dates/7.4/7.4.wxml-->
+<import src="/common/date.wxml"/>
+<template is="date" data="{{Images}}"/>

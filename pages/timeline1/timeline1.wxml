@@ -1,0 +1,4 @@
+<!--pages/timeline1/timeline1.wxml-->
+<import src="/common/timeline.wxml"/>
+<import src="/common/QRcode.wxml"/>
+<template is="timeline" data="{{Timepoint,Dates,Nextweek}}"/>

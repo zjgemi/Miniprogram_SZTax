@@ -1,0 +1,5 @@
+<!--common/QRcode.wxml-->
+<template name="QRcode">
+<image src="https://wx1.sinaimg.cn/mw690/005XJYWoly1ftkdmx5lcej3076076mxn.jpg" class="QRcode"> </image>
+<view class="space"></view>
+</template>

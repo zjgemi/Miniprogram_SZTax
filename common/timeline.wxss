@@ -1,0 +1,109 @@
+/* common/timeline.wxss */
+
+page {
+  background: url("https://wx1.sinaimg.cn/mw690/005XJYWoly1ftkdnz40xxj31kw28gaku.jpg");
+  background-size: 100% 100%
+}
+
+.blank {
+  height: 30rpx;
+}
+
+.framework {
+  display: flex;
+  flex-direction: row
+}
+
+.dateline {
+  display: flex;
+  flex-direction: column
+}
+
+.empty-div {
+  height: 120rpx;
+  width: 360rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.datewithphoto {
+  height: 240rpx;
+  width: 360rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.date {
+  font-size: 30rpx;
+  font-family: Georgia;
+  margin: 0 auto; 
+  align-items: center;
+  justify-content: center
+}
+
+.photowithdescr {
+  width: 310rpx;
+  height: 240rpx;
+  display: flex;
+  flex-direction: column
+}
+
+.photo-div{
+  width: 300rpx;
+  height: 200rpx;
+  display: flex 
+}
+
+.photo{
+  max-width: 90%;
+  max-height: 100%;
+  margin: 0 auto; 
+  align-items: center;
+  justify-content: center
+}
+
+.descr {
+  font-size: 8px;
+  height: 40rpx;
+  margin: 0 auto; 
+  align-items: center;
+  justify-content: center
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.timepoint {
+  width: 20rpx;
+  height: 120rpx
+}
+
+.timepoint-end {
+  width: 20rpx;
+  height: 60rpx
+}
+
+.nextweek {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%
+}
+
+.theend {
+  width: 256rpx;
+  height: 70rpx
+}
+
+.heart {
+  width: 64rpx;
+  height: 64rpx;
+  position: relative;
+  left: 310rpx;
+  transform: rotate(315deg)
+}

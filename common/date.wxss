@@ -1,0 +1,61 @@
+/* common/date.wxss */
+
+.box{
+  height: 700rpx;
+  width: 947rpx;
+  transform: rotate(270deg);
+  position: absolute;
+  top: 250rpx
+}
+
+.imageList{
+  position: relative;
+  top: 100rpx;
+  margin: 0 auto; 
+  align-items: center; 
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 700rpx;
+  height: 1000rpx
+}
+
+.image-div{
+  width: 700rpx;
+  height: 1000rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.image{
+  max-width: 100%;
+  max-height: 100%;
+  transform: rotate(270deg);
+  margin: 0 auto; 
+  align-items: center;
+  justify-content: center
+}
+
+.image-text-div{
+  width: 100rpx;
+  height: 700rpx;
+  display: flex
+}
+
+.image-text{
+  font-size: 30rpx;
+  line-height: 30rpx;
+  transform: rotate(270deg);
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center
+}
+
+.hint{
+  font-size: 30rpx;
+  transform: rotate(270deg);
+  position: relative;
+  right: 330rpx;
+  bottom: 425rpx
+}
